@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  /* font-style: normal; */
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navigations_logo {
+  margin-right: 89px;
+}
+.navigations_menu {
+  display: flex;
+  margin-right: 94px;
+}
+.navigations_menu__item {
+  margin-right: 40px;
+}
+.navigations_menu__item:last-child {
+  margin-right: 0px;
+}
+.navigations_contacts {
+  display: flex;
+  margin-right: 68px;
+}
+.navigations_contacts__item {
+  margin-right: 40px;
+}
+.navigations_contacts__item:last-child {
+  margin-right: 0px;
+}
+.navigations_contacts__item__link_city {
+  position: relative;
+}
+.navigations_contacts__item__link_city::before {
+  position: absolute;
+  content: url("/img/header/location_icon.png");
+  top: -2px;
+  right: 0;
+  bottom: 0;
+  left: -26px;
+}
+.navigations_login {
+  display: flex;
+  /* li {       
+      list-style-image: url('/img/header/user_login_icon.png');         
+  } */
+}
+.navigations_login__item__link {
+  position: relative;
+}
+.navigations_login__item__link::before {
+  position: absolute;
+  content: url("/img/header/user_login_icon.png");
+  top: -2px;
+  right: 0;
+  bottom: 0;
+  left: -26px;
+}

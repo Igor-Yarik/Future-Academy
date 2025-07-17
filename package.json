@@ -1,0 +1,25 @@
+{
+  "name": "future-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Yarik/Future-Academy.git"
+  },
+  "author": "IY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Yarik/Future-Academy/issues"
+  },
+  "homepage": "https://github.com/Igor-Yarik/Future-Academy#readme",
+  "dependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.2"
+  }
+}

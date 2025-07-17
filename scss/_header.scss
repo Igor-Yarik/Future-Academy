@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navigations {
+
+    &_logo {
+        margin-right: 89px;
+    }
+
+
+    &_menu {
+        display: flex;
+        margin-right: 94px; 
+
+        &__item {
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+            
+
+            &__link {                
+                                
+
+            }            
+        }
+    }
+
+
+    &_contacts {
+        display: flex;
+        margin-right: 68px;
+
+    
+        &__item {
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            &__link {
+                
+                &_city {
+                    position: relative;  
+
+                    &::before {
+                        position: absolute;
+                        content: url('/img/header/location_icon.png');
+                        top: -2px;
+                        right: 0;
+                        bottom: 0;
+                        left: -26px;
+                    }
+                }                
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    &_login {
+        display: flex;
+
+        /* li {       
+            list-style-image: url('/img/header/user_login_icon.png');         
+        } */
+
+        &__item {
+
+            &__link {
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: url('/img/header/user_login_icon.png');
+                    top: -2px;
+                    right: 0;
+                    bottom: 0;
+                    left: -26px;
+                }  
+            }           
+
+        }     
+             
+
+    }
+}
