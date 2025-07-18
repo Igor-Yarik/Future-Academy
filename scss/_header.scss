@@ -12,7 +12,6 @@ header {
         margin-right: 89px;
     }
 
-
     &_menu {
         display: flex;
         margin-right: 94px; 
@@ -22,12 +21,22 @@ header {
 
             &:last-child {
                 margin-right: 0px;
-            }
-            
+            }            
 
-            &__link {                
-                                
+            &__link {   
 
+                &_all {
+                    position: relative;
+
+                &::before {
+                        position: absolute;
+                        content: url('/img/header/navigation_icon.png');
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: -26px;
+                    }
+                }
             }            
         }
     }
@@ -36,7 +45,6 @@ header {
     &_contacts {
         display: flex;
         margin-right: 68px;
-
     
         &__item {
             margin-right: 40px;
@@ -63,13 +71,6 @@ header {
         }
     }
 
-
-
-
-
-
-
-
     &_login {
         display: flex;
 
@@ -89,10 +90,7 @@ header {
                     bottom: 0;
                     left: -26px;
                 }  
-            }           
-
-        }     
-             
-
+            }
+        }
     }
 }

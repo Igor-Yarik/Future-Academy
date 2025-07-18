@@ -49,6 +49,17 @@ header {
 .navigations_menu__item:last-child {
   margin-right: 0px;
 }
+.navigations_menu__item__link_all {
+  position: relative;
+}
+.navigations_menu__item__link_all::before {
+  position: absolute;
+  content: url("/img/header/navigation_icon.png");
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -26px;
+}
 .navigations_contacts {
   display: flex;
   margin-right: 68px;
@@ -86,4 +97,43 @@ header {
   right: 0;
   bottom: 0;
   left: -26px;
+}
+
+.main_head {
+  position: relative;
+  background-image: url(/img/main/bg_main_head.jpeg);
+}
+.main_head__item {
+  width: 1032px;
+  background: rgb(0, 9, 60);
+  padding-left: 370px;
+  padding-top: 100px;
+  padding-bottom: 177px;
+}
+.main_head__title {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 70px;
+  /* line-height: 44px;  */
+}
+.main_head__title span {
+  height: 50px;
+  color: red;
+}
+.main_head__text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 39px;
+}
+
+.vector {
+  position: absolute;
+  width: 130.15px;
+  height: 130px;
+  left: 200px;
+  top: 183px;
+  color: red;
 }
